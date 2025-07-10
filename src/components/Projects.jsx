@@ -7,7 +7,7 @@ const projects = [
     image: "src/components/Portfolio.png",
     description: "A personal portfolio website built with React.js.",
     techStack: "React.js, CSS",
-    github: "",
+    github: "https://github.com/Shubham0x1/Portfolio",
   },
   {
     name: "SwasthyaPath",
