@@ -29,7 +29,7 @@ React Router – For seamless navigation
 
 <h2>🛠 Installation & Setup</h2>
 Clone the repository
-git clone [https://github.com/Shubham0x1/Portfolio](https://github.com/Shubham0x1/Portfolio.git)
+git clone https://github.com/Shubham0x1/Portfolio
 
 <h2>Install dependencies</h2>
 ## Dependencies
@@ -63,17 +63,6 @@ npm install
 <h2>To Run the project</h2>
 
 npm run dev  
-
-Open in browser
-Visit http://localhost:5173
-📸 Screenshots
-<img width="960" alt="image" src="" />
-
-<img width="960" alt="image" src="" />
-
-<img width="960" alt="image" src="" />
-
-<img width="960" alt="image" src="" />
 
 <h2>🔥 Future Updates</h2>
 
