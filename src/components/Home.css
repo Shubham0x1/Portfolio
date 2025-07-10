@@ -1,0 +1,272 @@
+
+
+.Home {
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.intro {
+    background-image: url("https://cdn.pixabay.com/photo/2015/08/04/09/00/backdrop-874452_1280.jpg");
+    padding: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0);
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+
+.heading-intro {
+    font-size: 4rem;
+    text-align: left;
+    justify-content: left;
+    color: white;
+}
+
+.auto-type{
+    color: rgba(255, 251, 0, 0.875);
+    font-size: 2.5rem;
+}
+
+.description {
+    width: 80%;
+    margin: 4rem;
+    margin-left: 0;
+    font-size: 1.5rem;
+    font-weight:50;
+    color: white;
+}
+
+.links {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.linksBtn {
+    display: inline-block;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 2rem;
+    color: rgb(122, 122, 122);
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+    background-color: rgb(18, 18, 18);
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.linksBtn:hover {
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(34, 34, 34);
+    border-radius: 1rem;
+}
+
+
+.tech-stacks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: none;
+}
+
+.tech-stacks h1 {
+    font-size: 3rem;
+    color: rgb(220, 220, 220);
+}
+
+
+.tech-stacks h2 {
+    color: rgb(168, 168, 168);
+    font-size: 2rem;
+}
+
+.logo-icon {
+   color: rgb(254, 254, 254);
+   font-size: 4rem;
+   display: flex;
+   flex-direction: column;
+   margin: 1rem;
+}
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 3rem;
+    justify-content: center;
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.logo-icon {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    animation: appear 1s forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+    padding: 1rem 2rem 0rem 2rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    color: rgb(108, 108, 108);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.logo-icon:hover {
+   cursor: pointer;
+   background-color: #666666;
+}
+
+.logo-name {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.java {
+    color: #007396;
+    box-shadow: 0 0 30px #007396;
+}
+
+.c {
+    color:  #A8B9CC;
+    box-shadow: 0 0 30px #A8B9CC;
+}
+
+
+.cpp {
+    color: #00599C;
+    box-shadow: 0 0 30px #00599C;
+}
+
+.html {
+    color: #E34F26;
+    box-shadow: 0 0 30px #E34F26;
+}
+.css {
+    color: #1572B6;
+    box-shadow: 0 0 30px #1572B6;
+}
+.js {
+    color: #F7DF1E;
+    box-shadow: 0 0 30px #F7DF1E;
+}
+.react {
+    color: #61DAFB;
+    box-shadow: 0 0 30px #61DAFB;
+}
+
+.node {
+    color:#339933;
+    box-shadow: 0 0 30px #339933;
+}
+.express {
+    color:#171717;
+    box-shadow: 0 0 30px #7e7e7e;
+    background-color: #262626;
+}
+
+.mongodb {
+    color:#47A248;
+    box-shadow: 0 0 30px #47A248;
+}
+.mysql {
+    color: #4479A1;
+    box-shadow: 0 0 30px #4479A1;
+}
+
+
+@media screen and (max-width: 800px) {
+    .heading-intro {
+        font-size: 2.5rem;
+        text-align: left;
+        display: block;
+    }
+
+    .auto-type {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        text-align: left;
+        display: block;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+
+    .linksBtn {
+        font-size: 1rem;
+
+    }
+
+    .languages {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .logo-icon {
+        font-size: 5rem;
+        margin: 1rem;
+    }
+
+    .logo-name {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .heading-intro {
+        font-size: 2rem;
+    }
+
+    .auto-type {
+        font-size: 1rem;
+    }
+
+    .description {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .tech-stacks h1 {
+        font-size: 2rem;
+    }
+
+    .tech-stacks h2 {
+        font-size: 1.5rem;
+    }
+
+    .languages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-icon {
+        font-size: 6.5rem;
+        margin-bottom: 4rem;
+        padding: 0.5rem;
+    }
+
+    .logo-name {
+        font-size: 1.2rem;
+    }
+}
